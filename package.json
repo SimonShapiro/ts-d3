@@ -1,0 +1,23 @@
+{
+  "name": "ts-d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^4.2.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "dependencies": {
+    "@types/d3": "^5.0.0",
+    "@types/dagre": "^0.7.40",
+    "d3": "^5.1.0",
+    "dagre": "^0.8.1"
+  }
+}
